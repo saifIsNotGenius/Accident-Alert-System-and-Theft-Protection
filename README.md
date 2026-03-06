@@ -1,4 +1,4 @@
-# AcciAlert System 🚗⚠️
+# Accident Alert and Theft Protection System
 
 AcciAlert System is an ESP32-based smart vehicle safety device that detects accidents and automatically sends the vehicle location to emergency contacts. It also allows remote location queries via SMS and continuously uploads telemetry data to the cloud.
 
