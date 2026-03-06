@@ -1,4 +1,3 @@
-#line 1 "C:\\Users\\LENOVO\\Documents\\Arduino\\main\\main.ino"
 #include <Arduino.h>
 #include "GPSManager.h"
 #include "GSMManager.h"
