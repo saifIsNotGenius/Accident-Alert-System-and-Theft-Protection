@@ -60,19 +60,20 @@ Pressing the hardware switch sends an emergency alert immediately.
 
 ## System Architecture
 
-```mermaid
-graph TD
+```
 
-GPS[GPS Module] --> ESP[ESP32 Controller]
-GYRO[Gyroscope / Accelerometer] --> ESP
+GPS Module  ──► ESP32 ◄── Gyro / Accelerometer
+│
+│
+┌──────┴───────┐
+│              │
+WiFi            GSM
+│              │
+Firebase Database     SMS
+│
+Telegram Bot
 
-ESP --> WIFI[WiFi]
-ESP --> GSM[GSM Module]
-
-WIFI --> FIREBASE[Firebase Database]
-WIFI --> TELEGRAM[Telegram Bot]
-
-GSM --> SMS[SMS Alerts]
+```
 
 ---
 
