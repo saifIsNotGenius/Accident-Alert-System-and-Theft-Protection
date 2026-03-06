@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```markdown
 # AcciAlert System 🚗⚠️
 
