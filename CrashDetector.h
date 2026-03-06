@@ -20,9 +20,9 @@ private:
   unsigned long prevTime;  // timestamp of previous GPS sample
 
   // thresholds
-  const float ACC_THRESHOLD = 5;           // m/s^2 (~3g)
+  const float ACC_THRESHOLD = 30;           // m/s^2
   const float GYRO_THRESHOLD = 300.0;      // deg/s
-  const float SPEED_DROP_THRESHOLD = 0.0;  // m/s (~54 km/h)
+  const float SPEED_DROP_THRESHOLD = 15.0;  // m/s
   const unsigned long TIME_WINDOW = 3000;  // 3 seconds in ms
   bool crashFlag;
 };
