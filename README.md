@@ -65,37 +65,21 @@ Pressing the hardware switch sends an emergency alert immediately.
 
 ## System Architecture
 
-```
+```mermaid
+graph TD
 
-GPS Module  ──► ESP32 ◄── Gyro / Accelerometer
-│
-│
-┌──────┴───────┐
-│              │
-WiFi            GSM
-│              │
-Firebase Database     SMS
-│
-Telegram Bot
+GPS[GPS Module] --> ESP[ESP32 Controller]
+GYRO[Gyroscope / Accelerometer] --> ESP
 
-```
+ESP --> WIFI[WiFi]
+ESP --> GSM[GSM Module]
+
+WIFI --> FIREBASE[Firebase Database]
+WIFI --> TELEGRAM[Telegram Bot]
+
+GSM --> SMS[SMS Alerts]
 
 ---
-
-## Project Structure
-
-```
-
-.
-├── main.ino
-├── GPSManager.h / .cpp
-├── GSMManager.h / .cpp
-├── GyroManager.h / .cpp
-├── WiFiManager.h / .cpp
-├── StorageManager.h / .cpp
-├── CrashDetector.h / .cpp
-
-````
 
 ### Modules
 
