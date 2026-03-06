@@ -1,4 +1,3 @@
-```markdown
 # AcciAlert System 🚗⚠️
 
 AcciAlert System is an ESP32-based smart vehicle safety device that detects accidents and automatically sends the vehicle location to emergency contacts. It also allows remote location queries via SMS and continuously uploads telemetry data to the cloud.
@@ -21,11 +20,7 @@ The system integrates **GPS, GSM, WiFi, and a gyroscope/accelerometer sensor** t
 ### 📡 Remote Location Request
 - Send an SMS with the command:
 
-```
-
 wherenow
-
-```
 
 The device replies with its current location.
 
@@ -168,5 +163,3 @@ https://www.google.com/maps/search/?api=1&query=23.123456,90.123456
 ## License
 
 MIT License
-
-```
