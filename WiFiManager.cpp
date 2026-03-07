@@ -66,7 +66,7 @@ String WiFiManager::getEmergencyNumber() {
   if (!isConnected()) return "";
 
   client.setInsecure();  // skip certificate verification
-  const char* host = "accialertsystem-default-rtdb.asia-southeast1.firebasedatabase.app";
+  const char* host = "XXXXXXXXXXXXXXXX";
   const int httpsPort = 443;
   String url = "/emergency.json";  // Firebase path
 

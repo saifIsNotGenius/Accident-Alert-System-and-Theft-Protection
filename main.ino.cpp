@@ -7,13 +7,13 @@
 #include "CrashDetector.h"
 #include <HTTPClient.h>
 
-#define WIFI_SSID "OnePlus"
-#define WIFI_PASS "11223344"
+#define WIFI_SSID "SSID"
+#define WIFI_PASS "PASSWORD"
 
-#define BOT_TOKEN "8521652129:AAHzpePk5OuIEBMSBQhPPCbw30oK3hao1EE"
-#define CHAT_ID "5103907880"
+#define BOT_TOKEN "XXXXXXX"
+#define CHAT_ID "XXXXXXXXX"
 
-const String dbUrl = "https://accialertsystem-default-rtdb.asia-southeast1.firebasedatabase.app";
+const String dbUrl = "XXXXXXXXXXXXXXXXX";
 
 #define SWPIN 25
 
