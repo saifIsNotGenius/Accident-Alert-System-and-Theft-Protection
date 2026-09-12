@@ -6,6 +6,11 @@ The system integrates **GPS, GSM, WiFi, and a gyroscope/accelerometer sensor** t
 
 ---
 
+## Youtube Showcase Video
+Link: https://m.youtube.com/watch?v=Ky_SgEkJj5I
+
+---
+
 ## Features
 
 ### 🚨 Crash Detection
