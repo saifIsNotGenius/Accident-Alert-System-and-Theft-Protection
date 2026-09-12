@@ -6,8 +6,8 @@ The system integrates **GPS, GSM, WiFi, and a gyroscope/accelerometer sensor** t
 
 ---
 
-## Youtube Showcase Video
-Link: https://m.youtube.com/watch?v=Ky_SgEkJj5I
+**YouTube Showcase Video**
+[IoT-Based Bicycle Fall Detection and Accident Alert System](https://m.youtube.com/watch?v=Ky_SgEkJj5I)
 
 ---
 
